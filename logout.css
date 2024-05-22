@@ -1,0 +1,20 @@
+/* logout.css */
+
+.logout-button {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  padding: 8px 12px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  z-index: 1; /* Add this line to ensure the button is on top of the map */
+  font-size: 14px;
+  width: 100px;
+}
+
+.logout-button:hover {
+  background-color: #004eb3;
+}

@@ -1,0 +1,77 @@
+/* Center the form on the page */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Style the form container */
+.login-form {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  max-width: 400px;
+  width: 100%;
+}
+
+.login-form h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: white;
+}
+
+/* Style the labels and inputs */
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+label {
+  font-weight: bold;
+  color: white;
+}
+
+input[type="text"],
+input[type="password"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: transparent; /* Make the input backgrounds transparent */
+  color: white; /* Set the input text color to white */
+}
+
+/* Style the submit button */
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px; /* Add some space between the form fields and the button */
+}
+
+button {
+  padding: 12px;
+  /*background-color: rgba(0, 0, 0, 0.5);*/
+  background-color:#0056b3;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 50%;
+  transition: background-color 0.3s; /* Add a transition effect to the button */
+}
+
+button:hover {
+  background-color:rgba(0, 0, 0, 0.5) ;
+}
+
+
+/* Style the logo container */
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px; /* Add some padding around the logo */
+}
