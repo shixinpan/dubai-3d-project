@@ -4,7 +4,7 @@ This project is to develop a visualization app based on sensor data, display the
 
 
 Front-end
-
+main.tsx
 
 Backed-end
 server.js
